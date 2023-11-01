@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(to left bottom, rgba(211, 119, 13, 0.806), rgb(249, 122, 72));
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(197 125 41 / 71%);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: centre;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(175, 175, 242);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #152753;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: #a32020fc;
+        }
+
+        .firstArea {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 135px 0;
+        }
+
+        .firstArea>div {
+            width: 42%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .btns {
+            padding: 50px 0;
+        }
+
+        .leftSection .Button {
+            padding: 12px;
+            background-color: #8a54bd;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 70%;
+            height: 100%;
+        }
+
+        .Nishant {
+            color: #61699dd9;
+        }
+
+        #element {
+            color: #61699dd9;
+        }
+
+        .Secondsection {
+            display: block;
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .Secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .gray {
+            color: grey;
+        }
+
+        .Secondsection .box {
+            background: #827ba1;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .Secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 6vw;
+        }
+
+        .image-pos {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-topic {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-content {
+            position: relative;
+            top: 86px;
+            color: rgb(82, 124, 239);
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #e6edb7;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+
+        @media screen and (max-width:1250px) {
+            body {
+                background-color:rgb(89, 134, 196);
+            }
+
+            .box {
+                flex-direction: column;
+            }
+
+            .Secondsection .vertical {
+                height: unset;
+            }
+
+            .vertical-content, .vertical-topic{
+                left:45px;
+            }
+
+            .Secondsection .box{
+                width: 50vw;
+            }
+
+            nav{
+                flex-direction: column;
+            }
+
+            footer {
+                display: none;
+            }
+
+            .firstArea {
+                flex-direction: column-reverse;
+            }
+
+            .leftSection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .rightSection{
+                width: 721px !important;
+            }
+
+            .Secondsection{
+                max-width: 80vw;
+                margin: auto;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            body{
+                min-width: fit-content;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Libre+Baskerville&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nishant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstArea">
+            <div class="leftSection">
+                <div>Hello! My name is <span class="Nishant">Nishant</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="btns">
+                    <button class="Button">Resume</button>
+                    <button class="Button">Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="web developer.jpg">
+            </div>
+        </section>
+
+        <hr>
+        <second class="Secondsection">
+            <span class="gray">Whaṭ I have done so far</span>
+            <h1>Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="Html.png" alt="" class="image-pos">
+                    <div class="vertical-topic">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-content">
+                        I excelled as an HTML developer, building dynamic and responsive websites. I expertly coded and
+                        maintained web pages, ensuring cross-browser compatibility and compliance with web standards. My
+                        work enhanced user experiences, emphasizing clean and efficient code, enabling seamless
+                        navigation and delivering impactful online solutions.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="CSS.png" alt="" class="image-pos">
+                    <div class="vertical-topic">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-content">
+                        As a CSS developer, I specialized in creating visually stunning and user-friendly websites. My
+                        skills included crafting responsive layouts, optimizing page load times, and enhancing overall
+                        design aesthetics. I consistently ensured a seamless user experience by implementing
+                        cutting-edge CSS techniques and adhering to modern design trends.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="Javascript.png" alt="" class="image-pos">
+                    <div class="vertical-topic">
+                        JS Developer
+                    </div>
+                    <div class="vertical-content">
+                        I thrived as a JavaScript developer, crafting dynamic and interactive web applications. My
+                        expertise included front-end and back-end development, leveraging JavaScript to enhance user
+                        experiences and optimize website functionality. I excelled in problem-solving, integrating
+                        libraries and frameworks, and delivering robust, user-focused solutions.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="Web design.jpg" alt="" class="image-pos">
+                    <div class="vertical-topic">
+                        Web Designer
+                    </div>
+                    <div class="vertical-content">
+                        As a web designer and developer, I seamlessly blended creativity and technical prowess to
+                        produce captivating, functional websites. My role encompassed UI/UX design, HTML/CSS coding, and
+                        JavaScript implementation. By harmonizing aesthetics with performance, I delivered exceptional
+                        online experiences that delighted users and met client objectives.
+                    </div>
+                </div>
+        </second>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nishant's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 nishantsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Skilled coder'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>

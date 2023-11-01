@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Libre+Baskerville&family=Playpen+Sans:wght@300&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+}
+
+.navbar {
+    display: flex;
+    height: 65px;
+    font-family: 'Playpen sans', sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top-left{
+    width: 50%;
+    height: 50vh;
+}
+
+.top-right{
+    width: 50%; 
+    height: 50vh;
+}
+
+.section-1 h1{
+    color:  rgb(141, 86, 15);
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.top-right img{
+    width: 49%;
+    padding-left: 179px;
+    padding-top: 32px;
+}
+
+.section-2{
+    padding: 73px;
+}
+
+.section-2 h1{
+    font-size: 3rem;
+}
+
+.section-2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(152, 95, 19);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.layout-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3{
+    padding: 73px;
+}
+
+.section-3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse ;
+}
+
+.section-3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section-3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section-3 h1{
+    font-size: 3rem;
+}
+
+footer{
+   padding: 23px;
+   text-align: center;
+}
